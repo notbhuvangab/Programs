@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\MinGW\\lib\\gcc\\mingw32\\8.2.0\\include\\c++"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                     "${workspaceRoot}",
+                     "C:\\MinGW\\lib\\gcc\\mingw32\\8.2.0\\include\\c++"
+            ],
+            "databaseFilename": ""
+            
+        }
+    }
+    ],
+    "version": 4
+}
