@@ -1,0 +1,34 @@
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+display: block;
+color: forestgreen;
+font-weight: bold;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    
+    width: 100%; 
+
+    }
+
+
+#aDiv{width: 600px; height: 600px; margin: 0 auto;}
+ #aDiv2{width: 600px; height: 450px; margin: 0 auto ;}
+
+
+
+ .btn-primary {
+    background-color:darkkhaki !important;
+    border-color: darkkhaki !important;
+  }
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:visited,
+  .btn-primary:focus {
+    background-color:darkkhaki !important;
+    border-color: darkkhaki !important;
+  }

@@ -1,12 +1,14 @@
 import cv2
-mpDraw = mp.solutions.drawing_utils
-mpPose = mp.solutions.pose
+import numpy as np
+import time
+
+mpDraw = np.solutions.drawing_utils
+mpPose = np.solutions.pose
 pose = mpPose.Pose()
 pTime = 0
 cap=cv2.VideoCapture('Part1.mp4')
 ptime=0
 while True:
-
   success, img = cap.read()
   imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
   results = pose.process(imgRGB)
@@ -23,5 +25,5 @@ while True:
   pTime = cTime
   cv2.putText(img, str(int(fps)), (70, 50), cv2.FONT_HERSHEY_PLAIN, 3,
                 (255, 0, 0), 3)
-  cv2_imshow(img)
+  cv2.imshow(img)
   cv2.waitKey(1)
