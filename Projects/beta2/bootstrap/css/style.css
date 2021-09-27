@@ -23,8 +23,8 @@ font-weight: bold;
       }
 
 
-#aDiv{width: 600px; height: 600px; margin: 0 auto;}
- #aDiv2{width: 600px; height: 450px; margin: 0 auto ;}
+#aDiv{width: 580px; height: 600px; margin: 0 auto;}
+ #aDiv2{width: 580px; height: 450px; margin: 0 auto ;}
 
 
 
@@ -39,3 +39,25 @@ font-weight: bold;
     background-color:darkkhaki !important;
     border-color: darkkhaki !important;
   }
+  .map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+    width:100%;
+
+    position:absolute;
+
+}
