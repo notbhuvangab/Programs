@@ -8,17 +8,17 @@ font-weight: bold;
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
+    grid-template-columns: 40% 40%;
+    max-width: 100%;
     }
   
  .grid-container2 {
 
       display: grid;
-      grid-template-columns: 200px 200px;
-      grid-template-rows: 30px 30px;
-      padding:10px;
-      grid-gap: 20px;
+      grid-template-columns: 30% 30%;
+      grid-template-rows: 25% 25%;
+      padding:5%;
+      grid-gap: 5%;
       align-content:center;
       }
 
@@ -39,13 +39,14 @@ font-weight: bold;
     background-color:darkkhaki !important;
     border-color: darkkhaki !important;
   }
+
   .map-responsive{
 
     overflow:hidden;
 
     padding-bottom:56.25%;
 
-    position:relative;
+    position:absolute;
 
     height:0;
 
@@ -60,4 +61,9 @@ font-weight: bold;
 
     position:absolute;
 
+}
+.photo > img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
 }
